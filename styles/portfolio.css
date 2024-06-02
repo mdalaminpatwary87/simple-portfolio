@@ -120,3 +120,23 @@ main{
     text-align: center;
     margin-top: 5px;
 }
+
+/* what i do section styles */
+.section-margin{
+    margin: 15px 130px 50px;
+}
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.skill{
+    padding: 50px;
+}
+.skill-title{
+    margin-top: 15px;
+}
+.skill-description{
+    font-size: 18px;
+    margin-top: 15px;
+}
