@@ -99,12 +99,17 @@ main{
     max-width: 1140px;
     margin: 0 auto; 
 }
+
+main > section{
+    margin-top: 130px;
+}
 /* about section styles */
 .about{
     background-color: #FFF8F3;
     padding: 130px;
     border-radius: 10px;
     margin: 130px 0;
+    
 }
 .about-info-container{
     display: flex;
@@ -123,15 +128,18 @@ main{
 
 /* what i do section styles */
 .section-margin{
-    margin: 15px 130px 50px;
+    /* margin: 15px 130px 50px; */
+    padding: 30px 150px;
 }
 .skills-container{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    gap: 40px;
 }
 .skill{
-    padding: 50px;
+    padding: 30px;
+    gap: 24px;
+    box-shadow: 3px 5px 2px #F1F1f1;
+    border-radius: 10px;
 }
 .skill-title{
     margin-top: 15px;
@@ -139,4 +147,39 @@ main{
 .skill-description{
     font-size: 18px;
     margin-top: 15px;
+}
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.resume-item{
+    margin-top: 50px;
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 15px;
+    font-weight: 500;
+}
+.resume-item-description{
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.download-cv{
+    margin-top: 50px;
+    text-align: center;
 }
