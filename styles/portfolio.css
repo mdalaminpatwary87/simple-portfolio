@@ -19,6 +19,12 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+button i{
+    padding-right: 5px;
+}
+.fa-solid fa-phone{
+
+}
 .section-title{
     color: #181818;
     text-align: center;
@@ -89,6 +95,7 @@ nav a{
 }
 .banner-description{
     margin-top: 0px;
+    margin-bottom: 10px;
 }
 .banner-profile-picture{
     width: 500px;
